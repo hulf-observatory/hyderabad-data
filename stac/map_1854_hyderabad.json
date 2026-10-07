@@ -1,0 +1,87 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "map_1854_hyderabad",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.390933,
+     17.333855
+    ],
+    [
+     78.531965,
+     17.333855
+    ],
+    [
+     78.531965,
+     17.450244
+    ],
+    [
+     78.390933,
+     17.450244
+    ],
+    [
+     78.390933,
+     17.333855
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.390933,
+  17.333855,
+  78.531965,
+  17.450244
+ ],
+ "properties": {
+  "title": "1854 Plan of Hyderabad",
+  "description": "",
+  "datetime": null,
+  "start_datetime": "1854-01-01T00:00:00Z",
+  "end_datetime": "1854-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "archive_maps",
+  "huo:kind": "raster",
+  "huo:source_name": "",
+  "huo:release": "2026-10-07"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1854_hyderabad.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/map_1854_hyderabad.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "data",
+    "visual"
+   ],
+   "title": "Raster tiles (PMTiles)"
+  },
+  "tilejson": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/map_1854_hyderabad.json",
+   "type": "application/json",
+   "roles": [
+    "metadata"
+   ],
+   "title": "TileJSON"
+  }
+ }
+}

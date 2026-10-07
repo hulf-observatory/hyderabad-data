@@ -1,0 +1,799 @@
+{
+ "type": "Catalog",
+ "stac_version": "1.1.0",
+ "id": "hyderabad-urban-observatory",
+ "title": "Hyderabad Urban Observatory: Spatial Data Repository",
+ "description": "Open spatial layers for the HMDA region. Release 2026-10-07. Each item carries its source's licence; see the README in the repository.",
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/ts_districts_33.json",
+   "type": "application/geo+json",
+   "title": "District Boundary (TS 33 Districts)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/ts_mandals.json",
+   "type": "application/geo+json",
+   "title": "Mandal Boundary (TS Mandals)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hmda.json",
+   "type": "application/geo+json",
+   "title": "HMDA"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/corporations_2026.json",
+   "type": "application/geo+json",
+   "title": "Corporations | CURE Region | 2026"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/scb.json",
+   "type": "application/geo+json",
+   "title": "Secunderabad Cantonment Board (SCB)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/zones_2026.json",
+   "type": "application/geo+json",
+   "title": "Zonal Boundary | CURE Region | 2026"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/circles_2026.json",
+   "type": "application/geo+json",
+   "title": "Circle Boundary | CURE Region | 2026"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/ghmc_wards_2026.json",
+   "type": "application/geo+json",
+   "title": "Ward Boundary | CURE Region | 2026"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/pincodes.json",
+   "type": "application/geo+json",
+   "title": "Pincode Boundary"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/mch.json",
+   "type": "application/geo+json",
+   "title": "MCH"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/cda.json",
+   "type": "application/geo+json",
+   "title": "CDA"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hada.json",
+   "type": "application/geo+json",
+   "title": "HADA"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/huda.json",
+   "type": "application/geo+json",
+   "title": "HUDA"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/districts_10.json",
+   "type": "application/geo+json",
+   "title": "District Boundary (10 Districts)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/ghmc_wards_150.json",
+   "type": "application/geo+json",
+   "title": "GHMC Wards Boundary | 150 Wards"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/ghmc_circles_2007.json",
+   "type": "application/geo+json",
+   "title": "GHMC Circle Boundary | 2007-2025"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/ghmc_zones_2007.json",
+   "type": "application/geo+json",
+   "title": "GHMC Zone Boundary | 2007-2025"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/ghmc_boundary.json",
+   "type": "application/geo+json",
+   "title": "GHMC"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/metro_stations.json",
+   "type": "application/geo+json",
+   "title": "Metro Stations"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/mmts_stations.json",
+   "type": "application/geo+json",
+   "title": "MMTS Stations"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/tgsrtc_bus_stops.json",
+   "type": "application/geo+json",
+   "title": "TGSRTC Bus Stops"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/metro_walkshed_1km.json",
+   "type": "application/geo+json",
+   "title": "Metro 1 Km Walkshed"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/mmts_walkshed_1km.json",
+   "type": "application/geo+json",
+   "title": "MMTS 1 Km Walkshed"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/bus_walkshed_500m.json",
+   "type": "application/geo+json",
+   "title": "Bus Stop 500m Walkshed"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/highway_national.json",
+   "type": "application/geo+json",
+   "title": "National Highway"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/highway_state.json",
+   "type": "application/geo+json",
+   "title": "State Highway"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/rail.json",
+   "type": "application/geo+json",
+   "title": "Rail"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/orr.json",
+   "type": "application/geo+json",
+   "title": "Outer Ring Road (ORR)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/rrr_alignment.json",
+   "type": "application/geo+json",
+   "title": "Proposed Regional Ring Road (RRR) | Alignment"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/rrr_central_line.json",
+   "type": "application/geo+json",
+   "title": "Proposed Regional Ring Road (RRR) | Central Line"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/assembly_constituencies.json",
+   "type": "application/geo+json",
+   "title": "Assembly Constituency Boundary"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/water_stagnation_points.json",
+   "type": "application/geo+json",
+   "title": "Water Stagnation Points"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/fire_stations.json",
+   "type": "application/geo+json",
+   "title": "Fire Stations"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/two_bhk_plots.json",
+   "type": "application/geo+json",
+   "title": "2BHK Government Housing | Plot Locations"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/two_bhk_plot_centroids.json",
+   "type": "application/geo+json",
+   "title": "2BHK Government Housing | Plot Centroids"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/slums.json",
+   "type": "application/geo+json",
+   "title": "Slums"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/playgrounds.json",
+   "type": "application/geo+json",
+   "title": "Play Grounds"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/open_spaces.json",
+   "type": "application/geo+json",
+   "title": "Open Spaces"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/parks.json",
+   "type": "application/geo+json",
+   "title": "Parks"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/solid_waste_transfer_stations.json",
+   "type": "application/geo+json",
+   "title": "Solid Waste Transfer Stations"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/dumper_bins.json",
+   "type": "application/geo+json",
+   "title": "Dumper Bins"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/annapurna_canteens.json",
+   "type": "application/geo+json",
+   "title": "Annapurna Canteens"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/community_halls.json",
+   "type": "application/geo+json",
+   "title": "Community Halls"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hospitals.json",
+   "type": "application/geo+json",
+   "title": "Hospitals"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/market_complex.json",
+   "type": "application/geo+json",
+   "title": "Market Complex"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/night_shelters.json",
+   "type": "application/geo+json",
+   "title": "Night Shelters"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/public_toilets.json",
+   "type": "application/geo+json",
+   "title": "Public Toilets"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/heritage_buildings.json",
+   "type": "application/geo+json",
+   "title": "Heritage Buildings"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/musi_river.json",
+   "type": "application/geo+json",
+   "title": "Musi River"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/musi_alignment.json",
+   "type": "application/geo+json",
+   "title": "Musi Alignment"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/lakes_tanks.json",
+   "type": "application/geo+json",
+   "title": "Lakes and Tanks"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/lake_status_water_temporal.json",
+   "type": "application/geo+json",
+   "title": "Lake Status Water Temporal"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/reservoirs.json",
+   "type": "application/geo+json",
+   "title": "Reservoirs"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/builtup_first_year.json",
+   "type": "application/geo+json",
+   "title": "Built-up 1985-2023"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/buildings_height_2023.json",
+   "type": "application/geo+json",
+   "title": "Building Height 2023"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/builtup_first_year_encoded.json",
+   "type": "application/geo+json",
+   "title": "Built-up 1985-2023 (year-encoded)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/buildings_height_2023_encoded.json",
+   "type": "application/geo+json",
+   "title": "Building Height 2023 (height-encoded)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l04.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 4"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l05.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 5"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l06.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 6"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l07.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 7"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l08.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 8"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l09.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 9"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l10.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 10"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l11.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 11"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hydrobasins_l12.json",
+   "type": "application/geo+json",
+   "title": "Basins Level 12"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/natural_drainage.json",
+   "type": "application/geo+json",
+   "title": "Natural Drainage Network"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_1975_56k7.json",
+   "type": "application/geo+json",
+   "title": "1975 56K7"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k2.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M2 56K2"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k3.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M3 56K3"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k4.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M4 56K4"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k6.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M6 56K6"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k7.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M7 56K7"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k8.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M8 56K8"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k10.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M10 56K10"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k11.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M11 56K11"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/topo_2011_56k12.json",
+   "type": "application/geo+json",
+   "title": "2011 E44M12 56K12"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/imagery_1967.json",
+   "type": "application/geo+json",
+   "title": "1967 Satellite Imagery"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/imagery_1974.json",
+   "type": "application/geo+json",
+   "title": "1974 Satellite Imagery"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/imagery_1979.json",
+   "type": "application/geo+json",
+   "title": "1979 Satellite Imagery"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1854_secunderabad.json",
+   "type": "application/geo+json",
+   "title": "1854 Plan of Secunderabad"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1854_hyderabad.json",
+   "type": "application/geo+json",
+   "title": "1854 Plan of Hyderabad"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1908_municipal_survey.json",
+   "type": "application/geo+json",
+   "title": "1908 Hyderabad Municipal Survey"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1911_hyderabad.json",
+   "type": "application/geo+json",
+   "title": "1911 Hyderabad"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1914_hyderabad.json",
+   "type": "application/geo+json",
+   "title": "1914 Hyderabad"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1954_ne44_9.json",
+   "type": "application/geo+json",
+   "title": "1954 NE44-9"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1954_ne44_city_detail.json",
+   "type": "application/geo+json",
+   "title": "1954 NE44 Hyderabad City Detail"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1956_secunderabad.json",
+   "type": "application/geo+json",
+   "title": "1956 Secunderabad"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_bibinagar.json",
+   "type": "application/geo+json",
+   "title": "Bibinagar"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_bommalaramaram.json",
+   "type": "application/geo+json",
+   "title": "Bommalaramaram"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_buvanagiri.json",
+   "type": "application/geo+json",
+   "title": "Buvanagiri"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_chevella.json",
+   "type": "application/geo+json",
+   "title": "Chevella"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_choutuppal.json",
+   "type": "application/geo+json",
+   "title": "Choutuppal"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_faruqnagar.json",
+   "type": "application/geo+json",
+   "title": "Faruqnagar"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ghatkesar.json",
+   "type": "application/geo+json",
+   "title": "Ghatkesar"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_hatnura.json",
+   "type": "application/geo+json",
+   "title": "Hatnura"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_hayathnagar.json",
+   "type": "application/geo+json",
+   "title": "Hayathnagar"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ibrahimpatnam_manchal.json",
+   "type": "application/geo+json",
+   "title": "Ibrahimpatnam and Manchal"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_jinnawaram.json",
+   "type": "application/geo+json",
+   "title": "Jinnawaram"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_kandukur.json",
+   "type": "application/geo+json",
+   "title": "Kandukur"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_kisara.json",
+   "type": "application/geo+json",
+   "title": "Kisara"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_kothuru.json",
+   "type": "application/geo+json",
+   "title": "Kothuru"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_maheshwaram.json",
+   "type": "application/geo+json",
+   "title": "Maheshwaram"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_medchal_qutubullapur.json",
+   "type": "application/geo+json",
+   "title": "Medchal Qutubullapur"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_moinabad_rajendranagar.json",
+   "type": "application/geo+json",
+   "title": "Moinabad Rajendranagar"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_mulug.json",
+   "type": "application/geo+json",
+   "title": "Mulug"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_narsapur.json",
+   "type": "application/geo+json",
+   "title": "Narsapur"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_patancheruvu.json",
+   "type": "application/geo+json",
+   "title": "Patancheruvu"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_pochampalli.json",
+   "type": "application/geo+json",
+   "title": "Pochampalli"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_sangareddy.json",
+   "type": "application/geo+json",
+   "title": "Sangareddy"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_shahbad.json",
+   "type": "application/geo+json",
+   "title": "Shahbad"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_shahmirpet.json",
+   "type": "application/geo+json",
+   "title": "Shahmirpet"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_shamshabad.json",
+   "type": "application/geo+json",
+   "title": "Shamshabad"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_shankarpalli_ramchandrapuram.json",
+   "type": "application/geo+json",
+   "title": "Shankarpalli Ramchandrapuram"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_shivampet.json",
+   "type": "application/geo+json",
+   "title": "Shivampet"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_tupran.json",
+   "type": "application/geo+json",
+   "title": "Tupran"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_wargal.json",
+   "type": "application/geo+json",
+   "title": "Wargal"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_yacharam.json",
+   "type": "application/geo+json",
+   "title": "Yacharam"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ghmc_circle_1.json",
+   "type": "application/geo+json",
+   "title": "GHMC Old Circle No I"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ghmc_circle_2.json",
+   "type": "application/geo+json",
+   "title": "GHMC Old Circle No II"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ghmc_circle_3.json",
+   "type": "application/geo+json",
+   "title": "GHMC Old Circle No III"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ghmc_circle_4.json",
+   "type": "application/geo+json",
+   "title": "GHMC Old Circle No IV"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ghmc_circle_5.json",
+   "type": "application/geo+json",
+   "title": "GHMC Old Circle No V"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ghmc_circle_6.json",
+   "type": "application/geo+json",
+   "title": "GHMC Old Circle No VI"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_ghmc_circle_7.json",
+   "type": "application/geo+json",
+   "title": "GHMC Old Circle No VII"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/plu_hmda.json",
+   "type": "application/geo+json",
+   "title": "HMDA"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/elevation_terrain.json",
+   "type": "application/geo+json",
+   "title": "Elevation (terrain)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/elevation_relief.json",
+   "type": "application/geo+json",
+   "title": "Elevation (colour relief + hillshade)"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/aws_locations.json",
+   "type": "application/geo+json",
+   "title": "AWS Locations"
+  },
+  {
+   "rel": "item",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/anganwadi_telangana.json",
+   "type": "application/geo+json",
+   "title": "Anganwadi Centres"
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "layer": "builtup_first_year",
+ "variant": "cleaned (stability pair + despeckle) - primary",
+ "type": "categorical-sequential",
+ "title": "First year built-up (1985-2023)",
+ "nodata": "transparent = not built by 2023",
+ "note": "1985 = built in or before 1985. 1985-2015 WSF Evolution (30 m Landsat); 2017-2023 Open Buildings Temporal (Sentinel-2) - method changes across the 2015/2017 seam. There is no 2016 class: built-up that Open Buildings sees in 2016 but WSF missed is dated 2015.",
+ "classes": [],
+ "encoded_companion": {
+  "file": "builtup_first_year_encoded.pmtiles",
+  "decode": "alpha 0 = never built; R >= 5 -> year = R + 1980 (5 = 1985 or earlier ... 43 = 2023); G and B unused"
+ },
+ "stops": [
+  {
+   "year": 1985,
+   "color": "#440154"
+  },
+  {
+   "year": 1986,
+   "color": "#460a5d"
+  },
+  {
+   "year": 1987,
+   "color": "#481467"
+  },
+  {
+   "year": 1988,
+   "color": "#481d6f"
+  },
+  {
+   "year": 1989,
+   "color": "#482576"
+  },
+  {
+   "year": 1990,
+   "color": "#472e7c"
+  },
+  {
+   "year": 1991,
+   "color": "#453781"
+  },
+  {
+   "year": 1992,
+   "color": "#423f85"
+  },
+  {
+   "year": 1993,
+   "color": "#404688"
+  },
+  {
+   "year": 1994,
+   "color": "#3d4e8a"
+  },
+  {
+   "year": 1995,
+   "color": "#39558c"
+  },
+  {
+   "year": 1996,
+   "color": "#365d8d"
+  },
+  {
+   "year": 1997,
+   "color": "#33638d"
+  },
+  {
+   "year": 1998,
+   "color": "#306a8e"
+  },
+  {
+   "year": 1999,
+   "color": "#2d718e"
+  },
+  {
+   "year": 2000,
+   "color": "#2a778e"
+  },
+  {
+   "year": 2001,
+   "color": "#287d8e"
+  },
+  {
+   "year": 2002,
+   "color": "#25838e"
+  },
+  {
+   "year": 2003,
+   "color": "#238a8d"
+  },
+  {
+   "year": 2004,
+   "color": "#21918c"
+  },
+  {
+   "year": 2005,
+   "color": "#1f968b"
+  },
+  {
+   "year": 2006,
+   "color": "#1e9d89"
+  },
+  {
+   "year": 2007,
+   "color": "#20a386"
+  },
+  {
+   "year": 2008,
+   "color": "#23a983"
+  },
+  {
+   "year": 2009,
+   "color": "#29af7f"
+  },
+  {
+   "year": 2010,
+   "color": "#32b67a"
+  },
+  {
+   "year": 2011,
+   "color": "#3dbc74"
+  },
+  {
+   "year": 2012,
+   "color": "#48c16e"
+  },
+  {
+   "year": 2013,
+   "color": "#56c667"
+  },
+  {
+   "year": 2014,
+   "color": "#65cb5e"
+  },
+  {
+   "year": 2015,
+   "color": "#75d054"
+  },
+  {
+   "year": 2016,
+   "color": "#84d44b"
+  },
+  {
+   "year": 2017,
+   "color": "#95d840"
+  },
+  {
+   "year": 2018,
+   "color": "#a8db34"
+  },
+  {
+   "year": 2019,
+   "color": "#bade28"
+  },
+  {
+   "year": 2020,
+   "color": "#cae11f"
+  },
+  {
+   "year": 2021,
+   "color": "#dde318"
+  },
+  {
+   "year": 2022,
+   "color": "#efe51c"
+  },
+  {
+   "year": 2023,
+   "color": "#fde725"
+  }
+ ]
+}

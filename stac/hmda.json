@@ -1,0 +1,86 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "hmda",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.004466,
+     16.965172
+    ],
+    [
+     79.050168,
+     16.965172
+    ],
+    [
+     79.050168,
+     17.896693
+    ],
+    [
+     78.004466,
+     17.896693
+    ],
+    [
+     78.004466,
+     16.965172
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.004466,
+  16.965172,
+  79.050168,
+  17.896693
+ ],
+ "properties": {
+  "title": "HMDA",
+  "description": "",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "boundaries",
+  "huo:kind": "vector",
+  "huo:source_name": "",
+  "huo:release": "2026-10-07"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/hmda.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/hmda.0cdc552b.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/hmda.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

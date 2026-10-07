@@ -1,0 +1,99 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "night_shelters",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.320553,
+     17.332765
+    ],
+    [
+     78.565459,
+     17.332765
+    ],
+    [
+     78.565459,
+     17.483382
+    ],
+    [
+     78.320553,
+     17.483382
+    ],
+    [
+     78.320553,
+     17.332765
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.320553,
+  17.332765,
+  78.565459,
+  17.483382
+ ],
+ "properties": {
+  "title": "Night Shelters",
+  "description": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi.",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "amenities",
+  "huo:kind": "vector",
+  "huo:source_name": "Open Data Telangana",
+  "huo:release": "2026-10-07",
+  "providers": [
+   {
+    "name": "Open Data Telangana",
+    "roles": [
+     "producer"
+    ],
+    "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad"
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/night_shelters.json",
+   "type": "application/geo+json"
+  },
+  {
+   "rel": "via",
+   "href": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/night_shelters.e49aa7bd.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/night_shelters.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

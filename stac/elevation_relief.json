@@ -1,0 +1,100 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "elevation_relief",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.004646,
+     16.965353
+    ],
+    [
+     79.050064,
+     16.965353
+    ],
+    [
+     79.050064,
+     17.896584
+    ],
+    [
+     78.004646,
+     17.896584
+    ],
+    [
+     78.004646,
+     16.965353
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.004646,
+  16.965353,
+  79.050064,
+  17.896584
+ ],
+ "properties": {
+  "title": "Elevation (colour relief + hillshade)",
+  "description": "FABDEM (Forest And Buildings removed Copernicus DEM) is a global elevation map that removes building and tree height biases from the Copernicus GLO 30 Digital Elevation Model (DEM). Processed and uploaded by Teja Malladi",
+  "datetime": null,
+  "start_datetime": "2025-01-01T00:00:00Z",
+  "end_datetime": "2025-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "2025-07-27",
+  "huo:group": "elevation",
+  "huo:kind": "raster",
+  "huo:source_name": "University of Bristol",
+  "huo:release": "2026-10-07",
+  "providers": [
+   {
+    "name": "University of Bristol",
+    "roles": [
+     "producer"
+    ],
+    "url": "https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn"
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/elevation_relief.json",
+   "type": "application/geo+json"
+  },
+  {
+   "rel": "via",
+   "href": "https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/elevation_relief.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "data",
+    "visual"
+   ],
+   "title": "Raster tiles (PMTiles)"
+  },
+  "tilejson": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/elevation_relief.json",
+   "type": "application/json",
+   "roles": [
+    "metadata"
+   ],
+   "title": "TileJSON"
+  }
+ }
+}

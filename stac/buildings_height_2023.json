@@ -1,0 +1,96 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "buildings_height_2023",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     77.968984,
+     16.93284
+    ],
+    [
+     79.079204,
+     16.93284
+    ],
+    [
+     79.079204,
+     17.929804
+    ],
+    [
+     77.968984,
+     17.929804
+    ],
+    [
+     77.968984,
+     16.93284
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  77.968984,
+  16.93284,
+  79.079204,
+  17.929804
+ ],
+ "properties": {
+  "title": "Building Height 2023",
+  "description": "Estimated building height in 2023, at about 4 m, in bands from 0-3 m (pale yellow) to 40 m and over (dark red). The heights are model estimates from satellite imagery with roughly metre-level error, and they are least reliable for small, low buildings. Places with no building in 2023 are transparent.",
+  "datetime": null,
+  "start_datetime": "2023-01-01T00:00:00Z",
+  "end_datetime": "2023-12-31T23:59:59Z",
+  "license": "CC-BY 4.0",
+  "huo:date": "2023",
+  "huo:group": "builtup",
+  "huo:kind": "raster",
+  "huo:source_name": "Google Open Buildings 2.5D Temporal",
+  "huo:release": "2026-10-07",
+  "providers": [
+   {
+    "name": "WSF Evolution (DLR, CC-BY 4.0); Open Buildings 2.5D Temporal (Google, CC-BY 4.0)",
+    "roles": [
+     "producer"
+    ],
+    "url": ""
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/buildings_height_2023.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/buildings_height_2023.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "data",
+    "visual"
+   ],
+   "title": "Raster tiles (PMTiles)"
+  },
+  "tilejson": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/buildings_height_2023.json",
+   "type": "application/json",
+   "roles": [
+    "metadata"
+   ],
+   "title": "TileJSON"
+  }
+ }
+}

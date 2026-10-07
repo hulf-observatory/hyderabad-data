@@ -1,0 +1,87 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "map_1954_ne44_city_detail",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.423921,
+     17.319074
+    ],
+    [
+     78.579962,
+     17.319074
+    ],
+    [
+     78.579962,
+     17.422688
+    ],
+    [
+     78.423921,
+     17.422688
+    ],
+    [
+     78.423921,
+     17.319074
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.423921,
+  17.319074,
+  78.579962,
+  17.422688
+ ],
+ "properties": {
+  "title": "1954 NE44 Hyderabad City Detail",
+  "description": "Detail sheet of central Hyderabad (78.424-78.580 E, 17.319-17.423 N) from the same 1954 NE44 series as '1954 NE44-9', at about 12x finer resolution. Its footprint sits inside the NE44-9 sheet rather than adjoining it.",
+  "datetime": null,
+  "start_datetime": "1954-01-01T00:00:00Z",
+  "end_datetime": "1954-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "1954",
+  "huo:group": "archive_maps",
+  "huo:kind": "raster",
+  "huo:source_name": "",
+  "huo:release": "2026-10-07"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/map_1954_ne44_city_detail.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/map_1954_ne44_city_detail.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "data",
+    "visual"
+   ],
+   "title": "Raster tiles (PMTiles)"
+  },
+  "tilejson": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/map_1954_ne44_city_detail.json",
+   "type": "application/json",
+   "roles": [
+    "metadata"
+   ],
+   "title": "TileJSON"
+  }
+ }
+}

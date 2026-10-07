@@ -1,0 +1,99 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "districts_10",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     77.236899,
+     15.837311
+    ],
+    [
+     81.316149,
+     15.837311
+    ],
+    [
+     81.316149,
+     19.91698
+    ],
+    [
+     77.236899,
+     19.91698
+    ],
+    [
+     77.236899,
+     15.837311
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  77.236899,
+  15.837311,
+  81.316149,
+  19.91698
+ ],
+ "properties": {
+  "title": "District Boundary (10 Districts)",
+  "description": "Vector file of the boundary downloaded and processed by Teja Malladi from Telangana Remote Sensing Application Centre (TGRAC)(https://www.tgrac.telangana.gov.in/trac/webgis.php)",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "old_boundaries",
+  "huo:kind": "vector",
+  "huo:source_name": "Telangana Remote Sensing Applications Centre",
+  "huo:release": "2026-10-07",
+  "providers": [
+   {
+    "name": "Telangana Remote Sensing Applications Centre",
+    "roles": [
+     "producer"
+    ],
+    "url": "https://tgrac.telangana.gov.in/trac/"
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/districts_10.json",
+   "type": "application/geo+json"
+  },
+  {
+   "rel": "via",
+   "href": "https://tgrac.telangana.gov.in/trac/"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/districts_10.add878c2.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/districts_10.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

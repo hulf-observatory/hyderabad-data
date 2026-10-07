@@ -1,0 +1,99 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "slums",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.260185,
+     17.295544
+    ],
+    [
+     78.616038,
+     17.295544
+    ],
+    [
+     78.616038,
+     17.549364
+    ],
+    [
+     78.260185,
+     17.549364
+    ],
+    [
+     78.260185,
+     17.295544
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.260185,
+  17.295544,
+  78.616038,
+  17.549364
+ ],
+ "properties": {
+  "title": "Slums",
+  "description": "Surveyed and digitised by Hyderbad Urban Lab",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "housing",
+  "huo:kind": "vector",
+  "huo:source_name": "Hyderabad Urban Lab",
+  "huo:release": "2026-10-07",
+  "providers": [
+   {
+    "name": "Hyderabad Urban Lab",
+    "roles": [
+     "producer"
+    ],
+    "url": "https://hydlab.in"
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/slums.json",
+   "type": "application/geo+json"
+  },
+  {
+   "rel": "via",
+   "href": "https://hydlab.in"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/slums.04209d8e.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/slums.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

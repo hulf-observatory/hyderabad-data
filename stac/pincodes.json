@@ -1,0 +1,86 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "pincodes",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     77.235761,
+     15.835857
+    ],
+    [
+     81.318398,
+     15.835857
+    ],
+    [
+     81.318398,
+     19.916807
+    ],
+    [
+     77.235761,
+     19.916807
+    ],
+    [
+     77.235761,
+     15.835857
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  77.235761,
+  15.835857,
+  81.318398,
+  19.916807
+ ],
+ "properties": {
+  "title": "Pincode Boundary",
+  "description": "",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "boundaries",
+  "huo:kind": "vector",
+  "huo:source_name": "",
+  "huo:release": "2026-10-07"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/pincodes.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/pincodes.04239d3e.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/pincodes.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

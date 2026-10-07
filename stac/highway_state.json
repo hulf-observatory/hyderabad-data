@@ -1,0 +1,86 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "highway_state",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     77.356646,
+     16.086726
+    ],
+    [
+     81.579491,
+     16.086726
+    ],
+    [
+     81.579491,
+     19.576241
+    ],
+    [
+     77.356646,
+     19.576241
+    ],
+    [
+     77.356646,
+     16.086726
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  77.356646,
+  16.086726,
+  81.579491,
+  19.576241
+ ],
+ "properties": {
+  "title": "State Highway",
+  "description": "",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "road_rail",
+  "huo:kind": "vector",
+  "huo:source_name": "",
+  "huo:release": "2026-10-07"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/highway_state.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/highway_state.90df8b2c.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/highway_state.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

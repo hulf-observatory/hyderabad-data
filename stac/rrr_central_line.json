@@ -1,0 +1,86 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "rrr_central_line",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     77.960071,
+     16.82363
+    ],
+    [
+     78.982197,
+     16.82363
+    ],
+    [
+     78.982197,
+     17.874051
+    ],
+    [
+     77.960071,
+     17.874051
+    ],
+    [
+     77.960071,
+     16.82363
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  77.960071,
+  16.82363,
+  78.982197,
+  17.874051
+ ],
+ "properties": {
+  "title": "Proposed Regional Ring Road (RRR) | Central Line",
+  "description": "",
+  "datetime": null,
+  "start_datetime": "2025-01-01T00:00:00Z",
+  "end_datetime": "2025-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "2025-10-14",
+  "huo:group": "road_rail",
+  "huo:kind": "vector",
+  "huo:source_name": "",
+  "huo:release": "2026-10-07"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/rrr_central_line.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/rrr_central_line.2e933c36.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/rrr_central_line.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

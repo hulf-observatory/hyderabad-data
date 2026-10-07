@@ -1,0 +1,55 @@
+{
+ "layer": "buildings_height_2023",
+ "type": "classed-sequential",
+ "title": "Building height 2023 (m, Open Buildings 2.5D Temporal, ~4 m)",
+ "nodata": "transparent = no building (2023 presence < 0.5)",
+ "note": "Model-estimated height from Sentinel-2; ~metre-level error, weaker for small/low buildings.",
+ "stops": [
+  {
+   "min_m": 0,
+   "max_m": 3,
+   "label": "0-3 m",
+   "color": "#ffffb2"
+  },
+  {
+   "min_m": 3,
+   "max_m": 6,
+   "label": "3-6 m",
+   "color": "#fed976"
+  },
+  {
+   "min_m": 6,
+   "max_m": 10,
+   "label": "6-10 m",
+   "color": "#feb24c"
+  },
+  {
+   "min_m": 10,
+   "max_m": 15,
+   "label": "10-15 m",
+   "color": "#fd8d3c"
+  },
+  {
+   "min_m": 15,
+   "max_m": 25,
+   "label": "15-25 m",
+   "color": "#f03b20"
+  },
+  {
+   "min_m": 25,
+   "max_m": 40,
+   "label": "25-40 m",
+   "color": "#bd0026"
+  },
+  {
+   "min_m": 40,
+   "max_m": null,
+   "label": "40+ m",
+   "color": "#64003c"
+  }
+ ],
+ "encoded_companion": {
+  "file": "buildings_height_2023_encoded.pmtiles",
+  "decode": "height_dm = R*256 + G; height_m = height_dm/10; A=0 -> no building"
+ }
+}

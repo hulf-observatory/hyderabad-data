@@ -1,0 +1,86 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "ghmc_wards_2026",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.209856,
+     17.16172
+    ],
+    [
+     78.760062,
+     17.16172
+    ],
+    [
+     78.760062,
+     17.668718
+    ],
+    [
+     78.209856,
+     17.668718
+    ],
+    [
+     78.209856,
+     17.16172
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.209856,
+  17.16172,
+  78.760062,
+  17.668718
+ ],
+ "properties": {
+  "title": "Ward Boundary | CURE Region | 2026",
+  "description": "",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "boundaries",
+  "huo:kind": "vector",
+  "huo:source_name": "",
+  "huo:release": "2026-10-07"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/ghmc_wards_2026.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_wards_2026.ef2e2780.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_wards_2026.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

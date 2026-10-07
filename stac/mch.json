@@ -1,0 +1,99 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "mch",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.374288,
+     17.308881
+    ],
+    [
+     78.548975,
+     17.308881
+    ],
+    [
+     78.548975,
+     17.462152
+    ],
+    [
+     78.374288,
+     17.462152
+    ],
+    [
+     78.374288,
+     17.308881
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.374288,
+  17.308881,
+  78.548975,
+  17.462152
+ ],
+ "properties": {
+  "title": "MCH",
+  "description": "MCH (Municipal Corporation of Hyderabad) boundary available as PDF format. Digitised by Teja Malladi",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "old_boundaries",
+  "huo:kind": "vector",
+  "huo:source_name": "Hyderabad Metropolitan Development Authority",
+  "huo:release": "2026-10-07",
+  "providers": [
+   {
+    "name": "Hyderabad Metropolitan Development Authority",
+    "roles": [
+     "producer"
+    ],
+    "url": "https://www.hmda.gov.in/wp-content/uploads/2020/07/Commercial-roads.pdf"
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/mch.json",
+   "type": "application/geo+json"
+  },
+  {
+   "rel": "via",
+   "href": "https://www.hmda.gov.in/wp-content/uploads/2020/07/Commercial-roads.pdf"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/mch.c5802662.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/mch.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "imagery_1974",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.23897,
+     17.290726
+    ],
+    [
+     78.621722,
+     17.290726
+    ],
+    [
+     78.621722,
+     17.560998
+    ],
+    [
+     78.23897,
+     17.560998
+    ],
+    [
+     78.23897,
+     17.290726
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.23897,
+  17.290726,
+  78.621722,
+  17.560998
+ ],
+ "properties": {
+  "title": "1974 Satellite Imagery",
+  "description": "",
+  "datetime": null,
+  "start_datetime": "1974-01-01T00:00:00Z",
+  "end_datetime": "1974-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "archive_imagery",
+  "huo:kind": "raster",
+  "huo:source_name": "",
+  "huo:release": "2026-10-07"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/imagery_1974.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/imagery_1974.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "data",
+    "visual"
+   ],
+   "title": "Raster tiles (PMTiles)"
+  },
+  "tilejson": {
+   "href": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/imagery_1974.json",
+   "type": "application/json",
+   "roles": [
+    "metadata"
+   ],
+   "title": "TileJSON"
+  }
+ }
+}

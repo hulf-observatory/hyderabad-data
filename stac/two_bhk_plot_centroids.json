@@ -1,0 +1,99 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "two_bhk_plot_centroids",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     78.317652,
+     17.298885
+    ],
+    [
+     78.734439,
+     17.298885
+    ],
+    [
+     78.734439,
+     17.666096
+    ],
+    [
+     78.317652,
+     17.666096
+    ],
+    [
+     78.317652,
+     17.298885
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  78.317652,
+  17.298885,
+  78.734439,
+  17.666096
+ ],
+ "properties": {
+  "title": "2BHK Government Housing | Plot Centroids",
+  "description": "accessed and processed at Hyderabad Urban Lab by Teja Malladi",
+  "datetime": null,
+  "start_datetime": "2026-01-01T00:00:00Z",
+  "end_datetime": "2026-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "",
+  "huo:group": "housing",
+  "huo:kind": "vector",
+  "huo:source_name": "Telangana Remote Sensing Applications Centre",
+  "huo:release": "2026-10-07",
+  "providers": [
+   {
+    "name": "Telangana Remote Sensing Applications Centre",
+    "roles": [
+     "producer"
+    ],
+    "url": "https://tgrac.telangana.gov.in/trac/"
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/two_bhk_plot_centroids.json",
+   "type": "application/geo+json"
+  },
+  {
+   "rel": "via",
+   "href": "https://tgrac.telangana.gov.in/trac/"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/two_bhk_plot_centroids.08457c94.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/two_bhk_plot_centroids.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}

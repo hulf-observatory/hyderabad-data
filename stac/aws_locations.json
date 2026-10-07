@@ -1,0 +1,95 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "id": "aws_locations",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     77.32731,
+     15.878579
+    ],
+    [
+     81.11639,
+     15.878579
+    ],
+    [
+     81.11639,
+     19.832766
+    ],
+    [
+     77.32731,
+     19.832766
+    ],
+    [
+     77.32731,
+     15.878579
+    ]
+   ]
+  ]
+ },
+ "bbox": [
+  77.32731,
+  15.878579,
+  81.11639,
+  19.832766
+ ],
+ "properties": {
+  "title": "AWS Locations",
+  "description": "",
+  "datetime": null,
+  "start_datetime": "2025-01-01T00:00:00Z",
+  "end_datetime": "2025-12-31T23:59:59Z",
+  "license": "various",
+  "huo:date": "2025-08-05",
+  "huo:group": "amenities",
+  "huo:kind": "vector",
+  "huo:source_name": "TGDPS",
+  "huo:release": "2026-10-07",
+  "providers": [
+   {
+    "name": "TGDPS",
+    "roles": [
+     "producer"
+    ],
+    "url": ""
+   }
+  ]
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "self",
+   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/aws_locations.json",
+   "type": "application/geo+json"
+  }
+ ],
+ "assets": {
+  "pmtiles": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/aws_locations.f4f8e829.pmtiles",
+   "type": "application/vnd.pmtiles",
+   "roles": [
+    "visual"
+   ],
+   "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/aws_locations.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
+  }
+ }
+}
