@@ -15,7 +15,9 @@
 </head>
 <body>
 <div id="map"></div>
-<div id="note">Hosting test: 2,000 synthetic points read from <code>test/synthetic.pmtiles</code> on GitHub Pages. No real data.</div>
+<div id="note">Hosting test, no real data: a synthetic raster from a GitHub Release via the
+  <a href="https://hyd-tiles.hulf-observatory.workers.dev/">hyd-tiles</a> Worker, and 2,000 synthetic points
+  from <code>test/synthetic.pmtiles</code> on GitHub Pages.</div>
 <script>
   const protocol = new pmtiles.Protocol();
   maplibregl.addProtocol('pmtiles', protocol.tile);
@@ -27,10 +29,12 @@
     style: {
       version: 8,
       sources: {
-        synthetic: { type: 'vector', url: 'pmtiles://' + url }
+        synthetic: { type: 'vector', url: 'pmtiles://' + url },
+        raster: { type: 'raster', url: 'https://hyd-tiles.hulf-observatory.workers.dev/r/test-0/synthetic_raster.json', tileSize: 256 }
       },
       layers: [
         { id: 'bg', type: 'background', paint: { 'background-color': '#EDEEF0' } },
+        { id: 'raster', type: 'raster', source: 'raster', paint: { 'raster-opacity': 0.6 } },
         { id: 'pts', type: 'circle', source: 'synthetic', 'source-layer': 'synthetic',
           paint: { 'circle-radius': 3, 'circle-color': '#1f6fb2' } }
       ]
