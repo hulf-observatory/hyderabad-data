@@ -109,7 +109,7 @@
   }
  ],
  "release": "2026-10-07",
- "generated": "2026-10-08T01:13:01+05:30",
+ "generated": "2026-10-08T01:15:42+05:30",
  "data_base": "https://data.hyderabad.urbanobservatory.in/",
  "tiles_worker": "https://hyd-tiles.hulf-observatory.workers.dev",
  "layers": [
