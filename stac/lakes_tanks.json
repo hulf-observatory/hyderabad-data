@@ -73,6 +73,14 @@
     "visual"
    ],
    "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://data.hyderabad.urbanobservatory.in/vector/lakes_tanks.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
   }
  }
 }

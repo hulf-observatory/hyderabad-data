@@ -62,7 +62,7 @@ Observatory's own processing, derived layers and metadata are **CC BY 4.0**. Ple
 ## How it is made
 
 Sources are cleaned, reprojected and clipped on the Observatory's machines
-([pipeline](https://github.com/hulf-observatory/hulf-observatory-work) `publish/`), then
+(a Python pipeline on the Observatory's machines; layout in [SCHEME.md](SCHEME.md)), then
 `release.py` assembles a dated release: GeoParquet + PMTiles for vectors, PMTiles for rasters,
 a STAC catalogue, and `layers.json` for the apps. Tile serving for rasters is
 [hyd-tiles](https://github.com/hulf-observatory/hyd-tiles).

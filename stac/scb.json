@@ -86,6 +86,14 @@
     "visual"
    ],
    "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://data.hyderabad.urbanobservatory.in/vector/scb.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
   }
  }
 }

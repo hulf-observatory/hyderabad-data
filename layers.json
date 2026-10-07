@@ -109,7 +109,7 @@
   }
  ],
  "release": "2026-10-07",
- "generated": "2026-10-08T00:06:09+05:30",
+ "generated": "2026-10-08T01:13:01+05:30",
  "data_base": "https://data.hyderabad.urbanobservatory.in/",
  "tiles_worker": "https://hyd-tiles.hulf-observatory.workers.dev",
  "layers": [
@@ -221,7 +221,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ts_districts_33.415d97cc.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ts_districts_33.415d97cc.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/ts_districts_33.parquet"
+   }
   },
   {
    "id": "ts_mandals",
@@ -343,7 +346,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ts_mandals.520a6b27.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ts_mandals.520a6b27.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/ts_mandals.parquet"
+   }
   },
   {
    "id": "hmda",
@@ -397,7 +403,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hmda.0cdc552b.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hmda.0cdc552b.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hmda.parquet"
+   }
   },
   {
    "id": "corporations_2026",
@@ -451,7 +460,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/corporations_2026.6abe7c0c.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/corporations_2026.6abe7c0c.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/corporations_2026.parquet"
+   }
   },
   {
    "id": "scb",
@@ -505,7 +517,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/scb.d942cf0f.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/scb.d942cf0f.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/scb.parquet"
+   }
   },
   {
    "id": "zones_2026",
@@ -555,7 +570,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/zones_2026.b18160e4.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/zones_2026.b18160e4.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/zones_2026.parquet"
+   }
   },
   {
    "id": "circles_2026",
@@ -613,7 +631,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/circles_2026.f80d39cb.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/circles_2026.f80d39cb.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/circles_2026.parquet"
+   }
   },
   {
    "id": "ghmc_wards_2026",
@@ -679,7 +700,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_2026.ef2e2780.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_2026.ef2e2780.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_2026.parquet"
+   }
   },
   {
    "id": "pincodes",
@@ -741,7 +765,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/pincodes.04239d3e.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/pincodes.04239d3e.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/pincodes.parquet"
+   }
   },
   {
    "id": "mch",
@@ -795,7 +822,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mch.c5802662.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mch.c5802662.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/mch.parquet"
+   }
   },
   {
    "id": "cda",
@@ -849,7 +879,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/cda.97b0af8d.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/cda.97b0af8d.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/cda.parquet"
+   }
   },
   {
    "id": "hada",
@@ -903,7 +936,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hada.67d80688.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hada.67d80688.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hada.parquet"
+   }
   },
   {
    "id": "huda",
@@ -957,7 +993,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/huda.92ac8e4f.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/huda.92ac8e4f.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/huda.parquet"
+   }
   },
   {
    "id": "districts_10",
@@ -1043,7 +1082,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/districts_10.add878c2.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/districts_10.add878c2.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/districts_10.parquet"
+   }
   },
   {
    "id": "ghmc_wards_150",
@@ -1457,7 +1499,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_150.2870afa1.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_150.2870afa1.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_150.parquet"
+   }
   },
   {
    "id": "ghmc_circles_2007",
@@ -1551,7 +1596,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_circles_2007.c00cd418.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_circles_2007.c00cd418.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_circles_2007.parquet"
+   }
   },
   {
    "id": "ghmc_zones_2007",
@@ -1609,7 +1657,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_zones_2007.a03c52e6.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_zones_2007.a03c52e6.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_zones_2007.parquet"
+   }
   },
   {
    "id": "ghmc_boundary",
@@ -1675,7 +1726,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_boundary.d3174bdb.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_boundary.d3174bdb.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_boundary.parquet"
+   }
   },
   {
    "id": "metro_stations",
@@ -1749,7 +1803,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/metro_stations.7754b042.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/metro_stations.7754b042.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/metro_stations.parquet"
+   }
   },
   {
    "id": "mmts_stations",
@@ -1811,7 +1868,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mmts_stations.ab4f7860.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mmts_stations.ab4f7860.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/mmts_stations.parquet"
+   }
   },
   {
    "id": "tgsrtc_bus_stops",
@@ -1873,7 +1933,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/tgsrtc_bus_stops.890ba349.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/tgsrtc_bus_stops.890ba349.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/tgsrtc_bus_stops.parquet"
+   }
   },
   {
    "id": "metro_walkshed_1km",
@@ -1919,7 +1982,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/metro_walkshed_1km.8f19202a.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/metro_walkshed_1km.8f19202a.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/metro_walkshed_1km.parquet"
+   }
   },
   {
    "id": "mmts_walkshed_1km",
@@ -1965,7 +2031,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mmts_walkshed_1km.51c714ed.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mmts_walkshed_1km.51c714ed.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/mmts_walkshed_1km.parquet"
+   }
   },
   {
    "id": "bus_walkshed_500m",
@@ -2031,7 +2100,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/bus_walkshed_500m.91544a74.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/bus_walkshed_500m.91544a74.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/bus_walkshed_500m.parquet"
+   }
   },
   {
    "id": "highway_national",
@@ -2137,7 +2209,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/highway_national.e1bdbbc3.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/highway_national.e1bdbbc3.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/highway_national.parquet"
+   }
   },
   {
    "id": "highway_state",
@@ -2243,7 +2318,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/highway_state.90df8b2c.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/highway_state.90df8b2c.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/highway_state.parquet"
+   }
   },
   {
    "id": "rail",
@@ -2353,7 +2431,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rail.b6a7381b.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rail.b6a7381b.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/rail.parquet"
+   }
   },
   {
    "id": "orr",
@@ -2419,7 +2500,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/orr.0d23dc6c.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/orr.0d23dc6c.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/orr.parquet"
+   }
   },
   {
    "id": "rrr_alignment",
@@ -2469,7 +2553,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rrr_alignment.7a375acb.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rrr_alignment.7a375acb.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/rrr_alignment.parquet"
+   }
   },
   {
    "id": "rrr_central_line",
@@ -2515,7 +2602,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rrr_central_line.2e933c36.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rrr_central_line.2e933c36.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/rrr_central_line.parquet"
+   }
   },
   {
    "id": "assembly_constituencies",
@@ -2633,7 +2723,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/assembly_constituencies.1fb3a31b.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/assembly_constituencies.1fb3a31b.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/assembly_constituencies.parquet"
+   }
   },
   {
    "id": "water_stagnation_points",
@@ -2707,7 +2800,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/water_stagnation_points.354d0414.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/water_stagnation_points.354d0414.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/water_stagnation_points.parquet"
+   }
   },
   {
    "id": "fire_stations",
@@ -2781,7 +2877,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/fire_stations.57c4a3f8.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/fire_stations.57c4a3f8.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/fire_stations.parquet"
+   }
   },
   {
    "id": "two_bhk_plots",
@@ -2915,7 +3014,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plots.02ccaed6.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plots.02ccaed6.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plots.parquet"
+   }
   },
   {
    "id": "two_bhk_plot_centroids",
@@ -3049,7 +3151,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plot_centroids.08457c94.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plot_centroids.08457c94.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plot_centroids.parquet"
+   }
   },
   {
    "id": "slums",
@@ -3171,7 +3276,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/slums.04209d8e.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/slums.04209d8e.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/slums.parquet"
+   }
   },
   {
    "id": "playgrounds",
@@ -3245,7 +3353,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/playgrounds.bda857de.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/playgrounds.bda857de.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/playgrounds.parquet"
+   }
   },
   {
    "id": "open_spaces",
@@ -3319,7 +3430,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/open_spaces.8e3f23de.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/open_spaces.8e3f23de.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/open_spaces.parquet"
+   }
   },
   {
    "id": "parks",
@@ -3393,7 +3507,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/parks.1b481704.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/parks.1b481704.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/parks.parquet"
+   }
   },
   {
    "id": "solid_waste_transfer_stations",
@@ -3467,7 +3584,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/solid_waste_transfer_stations.5631e229.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/solid_waste_transfer_stations.5631e229.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/solid_waste_transfer_stations.parquet"
+   }
   },
   {
    "id": "dumper_bins",
@@ -3541,7 +3661,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/dumper_bins.36fffbe6.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/dumper_bins.36fffbe6.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/dumper_bins.parquet"
+   }
   },
   {
    "id": "annapurna_canteens",
@@ -3615,7 +3738,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/annapurna_canteens.a887d0e0.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/annapurna_canteens.a887d0e0.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/annapurna_canteens.parquet"
+   }
   },
   {
    "id": "community_halls",
@@ -3689,7 +3815,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/community_halls.016cf134.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/community_halls.016cf134.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/community_halls.parquet"
+   }
   },
   {
    "id": "hospitals",
@@ -3763,7 +3892,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hospitals.a173b00a.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hospitals.a173b00a.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hospitals.parquet"
+   }
   },
   {
    "id": "market_complex",
@@ -3837,7 +3969,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/market_complex.8f67d52f.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/market_complex.8f67d52f.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/market_complex.parquet"
+   }
   },
   {
    "id": "night_shelters",
@@ -3911,7 +4046,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/night_shelters.e49aa7bd.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/night_shelters.e49aa7bd.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/night_shelters.parquet"
+   }
   },
   {
    "id": "public_toilets",
@@ -3985,7 +4123,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/public_toilets.3ae4e6ab.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/public_toilets.3ae4e6ab.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/public_toilets.parquet"
+   }
   },
   {
    "id": "heritage_buildings",
@@ -4059,7 +4200,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/heritage_buildings.dd261f25.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/heritage_buildings.dd261f25.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/heritage_buildings.parquet"
+   }
   },
   {
    "id": "musi_river",
@@ -4137,7 +4281,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/musi_river.2814cc68.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/musi_river.2814cc68.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/musi_river.parquet"
+   }
   },
   {
    "id": "musi_alignment",
@@ -4183,7 +4330,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/musi_alignment.b1afcbb1.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/musi_alignment.b1afcbb1.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/musi_alignment.parquet"
+   }
   },
   {
    "id": "lakes_tanks",
@@ -4417,7 +4567,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/lakes_tanks.00e1b251.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/lakes_tanks.00e1b251.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/lakes_tanks.parquet"
+   }
   },
   {
    "id": "lake_status_water_temporal",
@@ -4651,7 +4804,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/lake_status_water_temporal.6dc46ac6.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/lake_status_water_temporal.6dc46ac6.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/lake_status_water_temporal.parquet"
+   }
   },
   {
    "id": "reservoirs",
@@ -4781,7 +4937,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/reservoirs.ec72a442.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/reservoirs.ec72a442.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/reservoirs.parquet"
+   }
   },
   {
    "id": "builtup_first_year",
@@ -5031,7 +5190,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l04.27996ed4.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l04.27996ed4.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l04.parquet"
+   }
   },
   {
    "id": "hydrobasins_l05",
@@ -5125,7 +5287,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l05.4507cf25.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l05.4507cf25.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l05.parquet"
+   }
   },
   {
    "id": "hydrobasins_l06",
@@ -5219,7 +5384,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l06.6465f859.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l06.6465f859.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l06.parquet"
+   }
   },
   {
    "id": "hydrobasins_l07",
@@ -5313,7 +5481,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l07.bf480421.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l07.bf480421.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l07.parquet"
+   }
   },
   {
    "id": "hydrobasins_l08",
@@ -5407,7 +5578,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l08.27aff2db.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l08.27aff2db.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l08.parquet"
+   }
   },
   {
    "id": "hydrobasins_l09",
@@ -5501,7 +5675,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l09.d02538a9.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l09.d02538a9.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l09.parquet"
+   }
   },
   {
    "id": "hydrobasins_l10",
@@ -5595,7 +5772,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l10.b1e2e3eb.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l10.b1e2e3eb.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l10.parquet"
+   }
   },
   {
    "id": "hydrobasins_l11",
@@ -5689,7 +5869,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l11.2d0267f6.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l11.2d0267f6.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l11.parquet"
+   }
   },
   {
    "id": "hydrobasins_l12",
@@ -5783,7 +5966,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l12.d2a66e80.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l12.d2a66e80.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l12.parquet"
+   }
   },
   {
    "id": "natural_drainage",
@@ -5853,7 +6039,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/natural_drainage.3f2e1402.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/natural_drainage.3f2e1402.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/natural_drainage.parquet"
+   }
   },
   {
    "id": "topo_1975_56k7",
@@ -8301,7 +8490,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/aws_locations.f4f8e829.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/aws_locations.f4f8e829.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/aws_locations.parquet"
+   }
   },
   {
    "id": "anganwadi_telangana",
@@ -8375,7 +8567,10 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/anganwadi_telangana.5d120394.pmtiles"
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/anganwadi_telangana.5d120394.pmtiles",
+   "download": {
+    "parquet": "https://data.hyderabad.urbanobservatory.in/vector/anganwadi_telangana.parquet"
+   }
   }
  ]
 }

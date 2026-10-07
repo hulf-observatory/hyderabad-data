@@ -73,6 +73,14 @@
     "visual"
    ],
    "title": "Vector tiles (PMTiles)"
+  },
+  "data": {
+   "href": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_2026.parquet",
+   "type": "application/vnd.apache.parquet",
+   "roles": [
+    "data"
+   ],
+   "title": "GeoParquet"
   }
  }
 }
