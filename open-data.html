@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open spatial data · Hyderabad Urban Observatory</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Open spatial layers for Hyderabad and the HMDA region, in dated releases: GeoParquet, PMTiles and a STAC catalogue.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="vendor/fonts/archivo.css">
+<style>
+  :root {
+    --canvas: #EDEEF0; --surface: #FFFFFF; --surface-2: #F3F4F6; --border: #E5E7EB;
+    --ink: #111827; --text-2: #374151; --muted: #6B7280; --accent: #185FA5; --accent-hover: #124A80;
+    --font-ui: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+    --font-narrow: 'Archivo Narrow', 'Arial Narrow', Arial, sans-serif;
+  }
+  html, body { margin: 0; background: var(--canvas); color: var(--ink); font: 15px/1.5 var(--font-ui); }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  .eyebrow { font-family: var(--font-narrow); font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+  h1 { font-size: 26px; font-weight: 600; margin: 4px 0 8px; }
+  p { margin: 0 0 12px; color: var(--text-2); }
+  .card { background: var(--surface); border-radius: 12px; padding: 20px 24px; margin-top: 16px; box-shadow: 0 1px 2px rgba(17,24,39,.06); }
+  .card h2 { font-size: 12px; font-family: var(--font-narrow); letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0 0 10px; }
+  .rows { display: grid; grid-template-columns: 1fr; gap: 0; }
+  .row { display: flex; gap: 12px; align-items: baseline; padding: 9px 0; border-top: 1px solid var(--border); }
+  .row:first-child { border-top: 0; }
+  .row b { font-weight: 600; min-width: 170px; }
+  .row span { color: var(--muted); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { color: var(--accent-hover); text-decoration: underline; }
+  code { font-size: 13px; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; word-break: break-all; }
+  footer { margin-top: 24px; font-size: 13px; color: var(--muted); }
+  @media (max-width: 520px) { .row { flex-direction: column; gap: 2px; } .row b { min-width: 0; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow"><a href="https://hyderabad.urbanobservatory.in" style="color:inherit">Hyderabad Urban Observatory</a></div>
+  <h1>Open spatial data</h1>
+  <p>Open layers for Hyderabad and the HMDA region: boundaries, transport, amenities, housing, water,
+     2031 land-use plans, historical maps and imagery, built-up growth 1985–2023, building heights and elevation.
+     Published in dated releases that never change, in formats that open directly in QGIS, GeoLibre, DuckDB, Python and web maps.</p>
+  <p>Current release: <b id="release">…</b> · <span id="count">…</span> layers</p>
+
+  <section class="card">
+    <h2>Explore</h2>
+    <div class="rows">
+      <div class="row"><b><a href="https://maps.hyderabad.urbanobservatory.in/">Spatial Data Repository</a></b><span>browse every layer on a map, with downloads</span></div>
+      <div class="row"><b><a href="https://timeline.hyderabad.urbanobservatory.in/">City Timeline</a></b><span>archive maps and imagery side by side</span></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Data</h2>
+    <div class="rows">
+      <div class="row"><b><a href="LAYERS.md">Layer list</a></b><span>every layer with its licence, source and download link</span></div>
+      <div class="row"><b><a href="layers.json">layers.json</a></b><span>the catalogue the apps read</span></div>
+      <div class="row"><b><a href="stac/catalog.json">STAC catalogue</a></b><span>one item per layer, for STAC-aware tools</span></div>
+      <div class="row"><b><a href="https://github.com/hulf-observatory/hyderabad-data/releases">Releases</a></b><span>raster layers as PMTiles, by date</span></div>
+      <div class="row"><b>Vector layers</b><span><code>vector/&lt;id&gt;.parquet</code> (GeoParquet) and <code>vector/&lt;id&gt;.&lt;hash&gt;.pmtiles</code></span></div>
+      <div class="row"><b>Raster tiles</b><span><code>https://hyd-tiles.hulf-observatory.workers.dev/r/&lt;release&gt;/&lt;id&gt;/{z}/{x}/{y}.webp</code></span></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Use it</h2>
+    <div class="rows">
+      <div class="row"><b>QGIS</b><span>Add Vector Layer → Protocol HTTP(S) → a <code>.parquet</code> URL; rasters: download the <code>.pmtiles</code></span></div>
+      <div class="row"><b>GeoLibre</b><span>Add Data → URL → a <code>.parquet</code> or <code>.pmtiles</code> URL</span></div>
+      <div class="row"><b>DuckDB</b><span><code>SELECT * FROM read_parquet('…/vector/ghmc_wards_2026.parquet')</code></span></div>
+      <div class="row"><b>Python</b><span><code>gpd.read_parquet('…/vector/ghmc_wards_2026.parquet')</code></span></div>
+    </div>
+  </section>
+
+  <footer>Each layer keeps its source's licence (see the layer list). The Observatory's processing and metadata are CC BY 4.0.
+    Code and details: <a href="https://github.com/hulf-observatory/hyderabad-data">github.com/hulf-observatory/hyderabad-data</a>
+    · <a href="https://hyderabad.urbanobservatory.in">Observatory home</a>.</footer>
+</main>
+<script>
+  fetch('layers.json', { cache: 'no-cache' }).then(r => r.json()).then(d => {
+    document.getElementById('release').textContent = d.release || '';
+    document.getElementById('count').textContent = (d.layers || []).filter(l => l.display !== false).length;
+  }).catch(() => { document.getElementById('release').textContent = 'unavailable'; document.getElementById('count').textContent = '–'; });
+</script>
+</body>
+</html>

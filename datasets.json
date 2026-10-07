@@ -1,0 +1,247 @@
+[
+ {
+  "theme": "Housing & Settlements",
+  "dataset": "2 BHK Project Locations",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/search/",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Public Amenities",
+  "dataset": "Anganwadi",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Public Amenities",
+  "dataset": "Annapurna Canteens",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Electoral Boundary",
+  "dataset": "Assembly Constituency Boundary",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/telangana-assembly-constituency-shape-files",
+  "details": "Telangana assembly constituency shape files available as a geojson file on Open Data Telangana Portal. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "CDA Boundary",
+  "source": "Hyderabad Metropolitan Development Authority",
+  "url": "https://masterplan.hmda.gov.in/masterplancda",
+  "details": "CDA (Cyberabad Development Authority) Masterplan available in PDF format. Digitised by Teja Malladi."
+ },
+ {
+  "theme": "Public Amenities",
+  "dataset": "Community Halls",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "District Boundary (10 Districts) (2014)",
+  "source": "Telangana Remote Sensing Applications Centre",
+  "url": "https://tgrac.telangana.gov.in/trac/",
+  "details": "Vector file of the boundary downloaded and processed by Teja Malladi from Telangana Remote Sensing Application Centre (TGRAC)."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "District Boundary (33 Districts) (2019)",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/telangana-district-and-mandal-shape-files",
+  "details": "New District and Mandal shapefiles available on Open Telangana Data Portal on Open Government Data Licence. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Waste Management",
+  "dataset": "Dumper Bins",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Urban Risk and Resilience",
+  "dataset": "Fire Stations",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "GHMC Boundary",
+  "source": "Census of India, 2011",
+  "url": "https://censusindia.gov.in/census.website/",
+  "details": "GHMC (Greater Hyderabad Municipal Corporation). Digitised at Hyderabad Urban Lab."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "GHMC Circle Boundary",
+  "source": "Greater Hyderabad Municipal Corporation",
+  "url": "https://www.ghmc.gov.in/",
+  "details": "Vector file of the boundary downloaded and processed by Teja Malladi from Telangana Remote Sensing Application Centre (TGRAC)."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "GHMC Ward Boundary",
+  "source": "Census of India, 2011",
+  "url": "https://censusindia.gov.in/census.website/",
+  "details": "Digitised at Hyderabad Urban Lab."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "GHMC Zone Boundary",
+  "source": "Greater Hyderabad Municipal Corporation",
+  "url": "https://www.ghmc.gov.in/",
+  "details": "Vector file of the boundary downloaded and processed by Teja Malladi from Telangana Remote Sensing Application Centre (TGRAC)."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "HADA Boundary",
+  "source": "Hyderabad Metropolitan Development Authority",
+  "url": "https://masterplan.hmda.gov.in/Masterplanhada",
+  "details": "Hyderabad Airport Development Authority Masterplan available in PDF format. Digitised by Teja Malladi."
+ },
+ {
+  "theme": "Urban Heritage and Archive",
+  "dataset": "Heritage Buildings",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Public Amenities",
+  "dataset": "Hospitals",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "HUDA Boundary",
+  "source": "Hyderabad Metropolitan Development Authority",
+  "url": "https://www.hmda.gov.in/planning-2/",
+  "details": "Vector file of HUDA (Hyderabad Urban Development Authority) boundary downloaded and processed by Teja Malladi from TGRAC."
+ },
+ {
+  "theme": "Urban Heritage and Archive",
+  "dataset": "Hyderabad Municipal Survey Map, 1908",
+  "source": "Munn, Leonard (1913) (MIT Archive)",
+  "url": "https://dome.mit.edu/handle/1721.3/45288",
+  "details": "Repository: Rotch Library, Massachusetts Institute of Technology. Images stitched at Hyderabad Urban Lab, georeferenced by Teja Malladi."
+ },
+ {
+  "theme": "Housing & Settlements",
+  "dataset": "GHMC Slums",
+  "source": "TGRAC",
+  "url": "https://tgrac.telangana.gov.in/trac/",
+  "details": "Accessed in 2024."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "Mandal Boundary (632 Mandals)",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/telangana-district-and-mandal-shape-files",
+  "details": "New District and Mandal shapefiles available on Open Telangana Data Portal on Open Government Data Licence. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Public Amenities",
+  "dataset": "Market Complex",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "MCH Boundary",
+  "source": "Hyderabad Metropolitan Development Authority",
+  "url": "https://www.hmda.gov.in/",
+  "details": "MCH (Municipal Corporation of Hyderabad) boundary available as PDF format. Digitised by Teja Malladi."
+ },
+ {
+  "theme": "Housing & Settlements",
+  "dataset": "Night Shelters",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Green & Public Spaces",
+  "dataset": "Open Spaces",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Green & Public Spaces",
+  "dataset": "Parks",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Green & Public Spaces",
+  "dataset": "Play Grounds",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Planning",
+  "dataset": "Proposed Land Use (2031)",
+  "source": "Hyderabad Metropolitan Development Authority",
+  "url": "https://www.hmda.gov.in/planning-2/",
+  "details": "Each zone and circle available in PDF format. Images georeferenced and digitised by Sabarinath D, supervised by Teja Malladi."
+ },
+ {
+  "theme": "Public Amenities",
+  "dataset": "Public Toilets",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Administrative Boundary",
+  "dataset": "SCB Boundary",
+  "source": "Census of India, 2011",
+  "url": "https://censusindia.gov.in/census.website/",
+  "details": "SCB (Secunderabad Cantonment Board) as PDF format. Digitised by Teja Malladi."
+ },
+ {
+  "theme": "Waste Management",
+  "dataset": "Solid Waste Transfer Stations",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Urban Risk and Resilience",
+  "dataset": "Water Stagnation Points",
+  "source": "Open Data Telangana",
+  "url": "https://data.telangana.gov.in/dataset/geo-locations-amenities-present-ghmc-hyderabad",
+  "details": "This dataset provides the geolocations of various civic amenities and infrastructure in Hyderabad city under the jurisdiction of the Greater Hyderabad Municipal Corporation (GHMC). Each feature is tagged with its respective ward and circle name where available. Some data points may lack full classification. The dataset reflects information as of September 2018. Dataset processed by Teja Malladi."
+ },
+ {
+  "theme": "Elevation",
+  "dataset": "Elevation",
+  "source": "University of Bristol",
+  "url": "https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn",
+  "details": "FABDEM (Forest And Buildings removed Copernicus DEM) is a global elevation map that removes building and tree height biases from the Copernicus GLO 30 Digital Elevation Model (DEM). Processed and uploaded by Teja Malladi."
+ },
+ {
+  "theme": "Hydrology",
+  "dataset": "Natural Drainage Network",
+  "source": "Hyderabad Urban Lab",
+  "url": "https://hydlab.in",
+  "details": "Natural drainage networks mapped using elevation data by Teja Malladi."
+ },
+ {
+  "theme": "Hydrology",
+  "dataset": "Basin Boundaries: Level 4–12",
+  "source": "HydroSHEDS",
+  "url": "https://www.hydrosheds.org/products/hydrobasins",
+  "details": "Processed and uploaded by Teja Malladi."
+ }
+]
