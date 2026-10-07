@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hosting test</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/pmtiles@4.3.0/dist/pmtiles.js"></script>
+<style>
+  html, body { margin: 0; height: 100%; font: 14px system-ui, sans-serif; background: #fff; color: #111; }
+  #map { position: absolute; inset: 0; }
+  #note { position: absolute; top: 12px; left: 12px; background: #fff; padding: 8px 12px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.2); }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="note">Hosting test: 2,000 synthetic points read from <code>test/synthetic.pmtiles</code> on GitHub Pages. No real data.</div>
+<script>
+  const protocol = new pmtiles.Protocol();
+  maplibregl.addProtocol('pmtiles', protocol.tile);
+  const url = new URL('test/synthetic.pmtiles', location.href).href;
+  new maplibregl.Map({
+    container: 'map',
+    center: [78.5, 17.45],
+    zoom: 9,
+    style: {
+      version: 8,
+      sources: {
+        synthetic: { type: 'vector', url: 'pmtiles://' + url }
+      },
+      layers: [
+        { id: 'bg', type: 'background', paint: { 'background-color': '#EDEEF0' } },
+        { id: 'pts', type: 'circle', source: 'synthetic', 'source-layer': 'synthetic',
+          paint: { 'circle-radius': 3, 'circle-color': '#1f6fb2' } }
+      ]
+    }
+  });
+</script>
+</body>
+</html>
