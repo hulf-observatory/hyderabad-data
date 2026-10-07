@@ -51,36 +51,28 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/lake_status_water_temporal.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/lake_status_water_temporal.json",
    "type": "application/geo+json"
   }
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/lake_status_water_temporal.6dc46ac6.pmtiles",
+   "href": "https://data.hyderabad.urbanobservatory.in/vector/lake_status_water_temporal.6dc46ac6.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
    ],
    "title": "Vector tiles (PMTiles)"
-  },
-  "data": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/lake_status_water_temporal.parquet",
-   "type": "application/vnd.apache.parquet",
-   "roles": [
-    "data"
-   ],
-   "title": "GeoParquet"
   }
  }
 }

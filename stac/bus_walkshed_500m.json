@@ -51,36 +51,28 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/bus_walkshed_500m.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/bus_walkshed_500m.json",
    "type": "application/geo+json"
   }
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/bus_walkshed_500m.91544a74.pmtiles",
+   "href": "https://data.hyderabad.urbanobservatory.in/vector/bus_walkshed_500m.91544a74.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
    ],
    "title": "Vector tiles (PMTiles)"
-  },
-  "data": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/bus_walkshed_500m.parquet",
-   "type": "application/vnd.apache.parquet",
-   "roles": [
-    "data"
-   ],
-   "title": "GeoParquet"
   }
  }
 }

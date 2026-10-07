@@ -60,17 +60,17 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/buildings_height_2023_encoded.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/buildings_height_2023_encoded.json",
    "type": "application/geo+json"
   }
  ],

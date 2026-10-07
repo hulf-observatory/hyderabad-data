@@ -51,36 +51,28 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/rrr_central_line.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/rrr_central_line.json",
    "type": "application/geo+json"
   }
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/rrr_central_line.2e933c36.pmtiles",
+   "href": "https://data.hyderabad.urbanobservatory.in/vector/rrr_central_line.2e933c36.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
    ],
    "title": "Vector tiles (PMTiles)"
-  },
-  "data": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/rrr_central_line.parquet",
-   "type": "application/vnd.apache.parquet",
-   "roles": [
-    "data"
-   ],
-   "title": "GeoParquet"
   }
  }
 }

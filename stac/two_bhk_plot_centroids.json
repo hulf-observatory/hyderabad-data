@@ -60,17 +60,17 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/two_bhk_plot_centroids.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/two_bhk_plot_centroids.json",
    "type": "application/geo+json"
   },
   {
@@ -80,20 +80,12 @@
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/two_bhk_plot_centroids.08457c94.pmtiles",
+   "href": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plot_centroids.08457c94.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
    ],
    "title": "Vector tiles (PMTiles)"
-  },
-  "data": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/two_bhk_plot_centroids.parquet",
-   "type": "application/vnd.apache.parquet",
-   "roles": [
-    "data"
-   ],
-   "title": "GeoParquet"
   }
  }
 }

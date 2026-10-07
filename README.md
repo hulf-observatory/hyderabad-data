@@ -14,13 +14,13 @@ Current release: **`2026-10-07`**. The full layer list with licences is in [LAYE
 
 | | URL |
 |---|---|
-| Catalogue (one JSON, every layer) | https://hulf-observatory.github.io/hyderabad-data/layers.json |
-| STAC catalogue | https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json |
-| Vector layers: GeoParquet + PMTiles | `https://hulf-observatory.github.io/hyderabad-data/vector/<id>.parquet`, `…/vector/<id>.<hash>.pmtiles` |
+| Catalogue (one JSON, every layer) | https://data.hyderabad.urbanobservatory.in/layers.json |
+| STAC catalogue | https://data.hyderabad.urbanobservatory.in/stac/catalog.json |
+| Vector layers: GeoParquet + PMTiles | `https://data.hyderabad.urbanobservatory.in/vector/<id>.parquet`, `…/vector/<id>.<hash>.pmtiles` |
 | Raster layers: PMTiles | [Releases](https://github.com/hulf-observatory/hyderabad-data/releases) → `<id>.pmtiles` |
 | Raster tiles for web maps | `https://hyd-tiles.hulf-observatory.workers.dev/r/<release>/<id>/{z}/{x}/{y}.webp` (TileJSON at `…/<id>.json`) |
-| Viewer | https://hulf-observatory.github.io/maps/ |
-| City Timeline | https://hulf-observatory.github.io/timeline/ |
+| Viewer | https://maps.hyderabad.urbanobservatory.in/ |
+| City Timeline | https://timeline.hyderabad.urbanobservatory.in/ |
 
 Vectors and small files live in this repository (served by GitHub Pages); raster files are
 attached to the GitHub Release of the same date. Files over 2 GB are split into parts with a
@@ -37,13 +37,13 @@ or add the TileJSON URL as an XYZ connection.
 **DuckDB:**
 ```sql
 INSTALL spatial; LOAD spatial;
-SELECT * FROM read_parquet('https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_wards_2026.parquet') LIMIT 5;
+SELECT * FROM read_parquet('https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_2026.parquet') LIMIT 5;
 ```
 
 **Python (GeoPandas):**
 ```python
 import geopandas as gpd
-wards = gpd.read_parquet('https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_wards_2026.parquet')
+wards = gpd.read_parquet('https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_2026.parquet')
 ```
 
 **MapLibre:** vector sources via `pmtiles://<url>` with [pmtiles.js](https://github.com/protomaps/PMTiles);

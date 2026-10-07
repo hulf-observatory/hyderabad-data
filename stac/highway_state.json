@@ -51,36 +51,28 @@
  "links": [
   {
    "rel": "root",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "parent",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/catalog.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/catalog.json",
    "type": "application/json"
   },
   {
    "rel": "self",
-   "href": "https://hulf-observatory.github.io/hyderabad-data/stac/highway_state.json",
+   "href": "https://data.hyderabad.urbanobservatory.in/stac/highway_state.json",
    "type": "application/geo+json"
   }
  ],
  "assets": {
   "pmtiles": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/highway_state.90df8b2c.pmtiles",
+   "href": "https://data.hyderabad.urbanobservatory.in/vector/highway_state.90df8b2c.pmtiles",
    "type": "application/vnd.pmtiles",
    "roles": [
     "visual"
    ],
    "title": "Vector tiles (PMTiles)"
-  },
-  "data": {
-   "href": "https://hulf-observatory.github.io/hyderabad-data/vector/highway_state.parquet",
-   "type": "application/vnd.apache.parquet",
-   "roles": [
-    "data"
-   ],
-   "title": "GeoParquet"
   }
  }
 }

@@ -109,8 +109,8 @@
   }
  ],
  "release": "2026-10-07",
- "generated": "2026-10-07T22:07:17+05:30",
- "data_base": "https://hulf-observatory.github.io/hyderabad-data/",
+ "generated": "2026-10-08T00:06:09+05:30",
+ "data_base": "https://data.hyderabad.urbanobservatory.in/",
  "tiles_worker": "https://hyd-tiles.hulf-observatory.workers.dev",
  "layers": [
   {
@@ -221,10 +221,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/ts_districts_33.415d97cc.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/ts_districts_33.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ts_districts_33.415d97cc.pmtiles"
   },
   {
    "id": "ts_mandals",
@@ -346,10 +343,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/ts_mandals.520a6b27.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/ts_mandals.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ts_mandals.520a6b27.pmtiles"
   },
   {
    "id": "hmda",
@@ -403,10 +397,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hmda.0cdc552b.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hmda.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hmda.0cdc552b.pmtiles"
   },
   {
    "id": "corporations_2026",
@@ -460,10 +451,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/corporations_2026.6abe7c0c.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/corporations_2026.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/corporations_2026.6abe7c0c.pmtiles"
   },
   {
    "id": "scb",
@@ -517,10 +505,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/scb.d942cf0f.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/scb.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/scb.d942cf0f.pmtiles"
   },
   {
    "id": "zones_2026",
@@ -570,10 +555,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/zones_2026.b18160e4.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/zones_2026.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/zones_2026.b18160e4.pmtiles"
   },
   {
    "id": "circles_2026",
@@ -631,10 +613,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/circles_2026.f80d39cb.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/circles_2026.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/circles_2026.f80d39cb.pmtiles"
   },
   {
    "id": "ghmc_wards_2026",
@@ -700,10 +679,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_wards_2026.ef2e2780.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_wards_2026.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_2026.ef2e2780.pmtiles"
   },
   {
    "id": "pincodes",
@@ -765,10 +741,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/pincodes.04239d3e.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/pincodes.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/pincodes.04239d3e.pmtiles"
   },
   {
    "id": "mch",
@@ -822,10 +795,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/mch.c5802662.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/mch.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mch.c5802662.pmtiles"
   },
   {
    "id": "cda",
@@ -879,10 +849,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/cda.97b0af8d.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/cda.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/cda.97b0af8d.pmtiles"
   },
   {
    "id": "hada",
@@ -936,10 +903,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hada.67d80688.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hada.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hada.67d80688.pmtiles"
   },
   {
    "id": "huda",
@@ -993,10 +957,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/huda.92ac8e4f.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/huda.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/huda.92ac8e4f.pmtiles"
   },
   {
    "id": "districts_10",
@@ -1082,10 +1043,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/districts_10.add878c2.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/districts_10.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/districts_10.add878c2.pmtiles"
   },
   {
    "id": "ghmc_wards_150",
@@ -1499,10 +1457,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_wards_150.2870afa1.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_wards_150.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_wards_150.2870afa1.pmtiles"
   },
   {
    "id": "ghmc_circles_2007",
@@ -1596,10 +1551,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_circles_2007.c00cd418.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_circles_2007.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_circles_2007.c00cd418.pmtiles"
   },
   {
    "id": "ghmc_zones_2007",
@@ -1657,10 +1609,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_zones_2007.a03c52e6.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_zones_2007.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_zones_2007.a03c52e6.pmtiles"
   },
   {
    "id": "ghmc_boundary",
@@ -1726,10 +1675,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_boundary.d3174bdb.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/ghmc_boundary.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/ghmc_boundary.d3174bdb.pmtiles"
   },
   {
    "id": "metro_stations",
@@ -1803,10 +1749,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/metro_stations.7754b042.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/metro_stations.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/metro_stations.7754b042.pmtiles"
   },
   {
    "id": "mmts_stations",
@@ -1868,10 +1811,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/mmts_stations.ab4f7860.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/mmts_stations.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mmts_stations.ab4f7860.pmtiles"
   },
   {
    "id": "tgsrtc_bus_stops",
@@ -1933,10 +1873,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/tgsrtc_bus_stops.890ba349.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/tgsrtc_bus_stops.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/tgsrtc_bus_stops.890ba349.pmtiles"
   },
   {
    "id": "metro_walkshed_1km",
@@ -1982,10 +1919,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/metro_walkshed_1km.8f19202a.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/metro_walkshed_1km.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/metro_walkshed_1km.8f19202a.pmtiles"
   },
   {
    "id": "mmts_walkshed_1km",
@@ -2031,10 +1965,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/mmts_walkshed_1km.51c714ed.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/mmts_walkshed_1km.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/mmts_walkshed_1km.51c714ed.pmtiles"
   },
   {
    "id": "bus_walkshed_500m",
@@ -2100,10 +2031,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/bus_walkshed_500m.91544a74.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/bus_walkshed_500m.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/bus_walkshed_500m.91544a74.pmtiles"
   },
   {
    "id": "highway_national",
@@ -2209,10 +2137,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/highway_national.e1bdbbc3.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/highway_national.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/highway_national.e1bdbbc3.pmtiles"
   },
   {
    "id": "highway_state",
@@ -2318,10 +2243,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/highway_state.90df8b2c.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/highway_state.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/highway_state.90df8b2c.pmtiles"
   },
   {
    "id": "rail",
@@ -2431,10 +2353,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/rail.b6a7381b.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/rail.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rail.b6a7381b.pmtiles"
   },
   {
    "id": "orr",
@@ -2500,10 +2419,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/orr.0d23dc6c.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/orr.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/orr.0d23dc6c.pmtiles"
   },
   {
    "id": "rrr_alignment",
@@ -2553,10 +2469,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/rrr_alignment.7a375acb.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/rrr_alignment.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rrr_alignment.7a375acb.pmtiles"
   },
   {
    "id": "rrr_central_line",
@@ -2602,10 +2515,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/rrr_central_line.2e933c36.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/rrr_central_line.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/rrr_central_line.2e933c36.pmtiles"
   },
   {
    "id": "assembly_constituencies",
@@ -2723,10 +2633,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/assembly_constituencies.1fb3a31b.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/assembly_constituencies.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/assembly_constituencies.1fb3a31b.pmtiles"
   },
   {
    "id": "water_stagnation_points",
@@ -2800,10 +2707,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/water_stagnation_points.354d0414.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/water_stagnation_points.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/water_stagnation_points.354d0414.pmtiles"
   },
   {
    "id": "fire_stations",
@@ -2877,10 +2781,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/fire_stations.57c4a3f8.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/fire_stations.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/fire_stations.57c4a3f8.pmtiles"
   },
   {
    "id": "two_bhk_plots",
@@ -3014,10 +2915,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/two_bhk_plots.02ccaed6.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/two_bhk_plots.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plots.02ccaed6.pmtiles"
   },
   {
    "id": "two_bhk_plot_centroids",
@@ -3151,10 +3049,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/two_bhk_plot_centroids.08457c94.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/two_bhk_plot_centroids.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/two_bhk_plot_centroids.08457c94.pmtiles"
   },
   {
    "id": "slums",
@@ -3276,10 +3171,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/slums.04209d8e.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/slums.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/slums.04209d8e.pmtiles"
   },
   {
    "id": "playgrounds",
@@ -3353,10 +3245,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/playgrounds.bda857de.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/playgrounds.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/playgrounds.bda857de.pmtiles"
   },
   {
    "id": "open_spaces",
@@ -3430,10 +3319,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/open_spaces.8e3f23de.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/open_spaces.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/open_spaces.8e3f23de.pmtiles"
   },
   {
    "id": "parks",
@@ -3507,10 +3393,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/parks.1b481704.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/parks.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/parks.1b481704.pmtiles"
   },
   {
    "id": "solid_waste_transfer_stations",
@@ -3584,10 +3467,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/solid_waste_transfer_stations.5631e229.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/solid_waste_transfer_stations.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/solid_waste_transfer_stations.5631e229.pmtiles"
   },
   {
    "id": "dumper_bins",
@@ -3661,10 +3541,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/dumper_bins.36fffbe6.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/dumper_bins.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/dumper_bins.36fffbe6.pmtiles"
   },
   {
    "id": "annapurna_canteens",
@@ -3738,10 +3615,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/annapurna_canteens.a887d0e0.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/annapurna_canteens.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/annapurna_canteens.a887d0e0.pmtiles"
   },
   {
    "id": "community_halls",
@@ -3815,10 +3689,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/community_halls.016cf134.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/community_halls.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/community_halls.016cf134.pmtiles"
   },
   {
    "id": "hospitals",
@@ -3892,10 +3763,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hospitals.a173b00a.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hospitals.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hospitals.a173b00a.pmtiles"
   },
   {
    "id": "market_complex",
@@ -3969,10 +3837,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/market_complex.8f67d52f.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/market_complex.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/market_complex.8f67d52f.pmtiles"
   },
   {
    "id": "night_shelters",
@@ -4046,10 +3911,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/night_shelters.e49aa7bd.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/night_shelters.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/night_shelters.e49aa7bd.pmtiles"
   },
   {
    "id": "public_toilets",
@@ -4123,10 +3985,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/public_toilets.3ae4e6ab.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/public_toilets.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/public_toilets.3ae4e6ab.pmtiles"
   },
   {
    "id": "heritage_buildings",
@@ -4200,10 +4059,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/heritage_buildings.dd261f25.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/heritage_buildings.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/heritage_buildings.dd261f25.pmtiles"
   },
   {
    "id": "musi_river",
@@ -4281,10 +4137,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/musi_river.2814cc68.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/musi_river.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/musi_river.2814cc68.pmtiles"
   },
   {
    "id": "musi_alignment",
@@ -4330,10 +4183,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/musi_alignment.b1afcbb1.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/musi_alignment.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/musi_alignment.b1afcbb1.pmtiles"
   },
   {
    "id": "lakes_tanks",
@@ -4567,10 +4417,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/lakes_tanks.00e1b251.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/lakes_tanks.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/lakes_tanks.00e1b251.pmtiles"
   },
   {
    "id": "lake_status_water_temporal",
@@ -4804,10 +4651,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/lake_status_water_temporal.6dc46ac6.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/lake_status_water_temporal.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/lake_status_water_temporal.6dc46ac6.pmtiles"
   },
   {
    "id": "reservoirs",
@@ -4937,10 +4781,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/reservoirs.ec72a442.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/reservoirs.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/reservoirs.ec72a442.pmtiles"
   },
   {
    "id": "builtup_first_year",
@@ -4974,7 +4815,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend": "https://hulf-observatory.github.io/hyderabad-data/legend/builtup_first_year.legend.json",
+   "legend": "https://data.hyderabad.urbanobservatory.in/legend/builtup_first_year.legend.json",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/builtup_first_year/{z}/{x}/{y}.webp",
    "download": {
@@ -5013,7 +4854,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend": "https://hulf-observatory.github.io/hyderabad-data/legend/buildings_height_2023.legend.json",
+   "legend": "https://data.hyderabad.urbanobservatory.in/legend/buildings_height_2023.legend.json",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/buildings_height_2023/{z}/{x}/{y}.webp",
    "download": {
@@ -5190,10 +5031,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l04.27996ed4.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l04.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l04.27996ed4.pmtiles"
   },
   {
    "id": "hydrobasins_l05",
@@ -5287,10 +5125,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l05.4507cf25.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l05.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l05.4507cf25.pmtiles"
   },
   {
    "id": "hydrobasins_l06",
@@ -5384,10 +5219,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l06.6465f859.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l06.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l06.6465f859.pmtiles"
   },
   {
    "id": "hydrobasins_l07",
@@ -5481,10 +5313,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l07.bf480421.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l07.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l07.bf480421.pmtiles"
   },
   {
    "id": "hydrobasins_l08",
@@ -5578,10 +5407,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l08.27aff2db.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l08.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l08.27aff2db.pmtiles"
   },
   {
    "id": "hydrobasins_l09",
@@ -5675,10 +5501,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l09.d02538a9.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l09.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l09.d02538a9.pmtiles"
   },
   {
    "id": "hydrobasins_l10",
@@ -5772,10 +5595,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l10.b1e2e3eb.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l10.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l10.b1e2e3eb.pmtiles"
   },
   {
    "id": "hydrobasins_l11",
@@ -5869,10 +5689,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l11.2d0267f6.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l11.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l11.2d0267f6.pmtiles"
   },
   {
    "id": "hydrobasins_l12",
@@ -5966,10 +5783,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l12.d2a66e80.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/hydrobasins_l12.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/hydrobasins_l12.d2a66e80.pmtiles"
   },
   {
    "id": "natural_drainage",
@@ -6039,10 +5853,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/natural_drainage.3f2e1402.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/natural_drainage.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/natural_drainage.3f2e1402.pmtiles"
   },
   {
    "id": "topo_1975_56k7",
@@ -6876,7 +6687,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_bibinagar/{z}/{x}/{y}.webp",
    "download": {
@@ -6916,7 +6727,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_bommalaramaram/{z}/{x}/{y}.webp",
    "download": {
@@ -6956,7 +6767,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_buvanagiri/{z}/{x}/{y}.webp",
    "download": {
@@ -6996,7 +6807,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_chevella/{z}/{x}/{y}.webp",
    "download": {
@@ -7036,7 +6847,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_choutuppal/{z}/{x}/{y}.webp",
    "download": {
@@ -7076,7 +6887,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_faruqnagar/{z}/{x}/{y}.webp",
    "download": {
@@ -7116,7 +6927,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ghatkesar/{z}/{x}/{y}.webp",
    "download": {
@@ -7156,7 +6967,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_hatnura/{z}/{x}/{y}.webp",
    "download": {
@@ -7196,7 +7007,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_hayathnagar/{z}/{x}/{y}.webp",
    "download": {
@@ -7236,7 +7047,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ibrahimpatnam_manchal/{z}/{x}/{y}.webp",
    "download": {
@@ -7276,7 +7087,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_jinnawaram/{z}/{x}/{y}.webp",
    "download": {
@@ -7316,7 +7127,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_kandukur/{z}/{x}/{y}.webp",
    "download": {
@@ -7356,7 +7167,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_kisara/{z}/{x}/{y}.webp",
    "download": {
@@ -7396,7 +7207,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_kothuru/{z}/{x}/{y}.webp",
    "download": {
@@ -7436,7 +7247,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_maheshwaram/{z}/{x}/{y}.webp",
    "download": {
@@ -7476,7 +7287,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_medchal_qutubullapur/{z}/{x}/{y}.webp",
    "download": {
@@ -7516,7 +7327,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_moinabad_rajendranagar/{z}/{x}/{y}.webp",
    "download": {
@@ -7556,7 +7367,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_mulug/{z}/{x}/{y}.webp",
    "download": {
@@ -7596,7 +7407,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_narsapur/{z}/{x}/{y}.webp",
    "download": {
@@ -7636,7 +7447,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_patancheruvu/{z}/{x}/{y}.webp",
    "download": {
@@ -7676,7 +7487,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_pochampalli/{z}/{x}/{y}.webp",
    "download": {
@@ -7716,7 +7527,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_sangareddy/{z}/{x}/{y}.webp",
    "download": {
@@ -7756,7 +7567,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_shahbad/{z}/{x}/{y}.webp",
    "download": {
@@ -7796,7 +7607,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_shahmirpet/{z}/{x}/{y}.webp",
    "download": {
@@ -7836,7 +7647,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_shamshabad/{z}/{x}/{y}.webp",
    "download": {
@@ -7876,7 +7687,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_shankarpalli_ramchandrapuram/{z}/{x}/{y}.webp",
    "download": {
@@ -7916,7 +7727,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_shivampet/{z}/{x}/{y}.webp",
    "download": {
@@ -7956,7 +7767,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_tupran/{z}/{x}/{y}.webp",
    "download": {
@@ -7996,7 +7807,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_wargal/{z}/{x}/{y}.webp",
    "download": {
@@ -8036,7 +7847,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_mandals.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_mandals.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_yacharam/{z}/{x}/{y}.webp",
    "download": {
@@ -8076,7 +7887,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_ghmc_circles_a.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_ghmc_circles_a.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ghmc_circle_1/{z}/{x}/{y}.webp",
    "download": {
@@ -8116,7 +7927,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_ghmc_circles_a.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_ghmc_circles_a.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ghmc_circle_2/{z}/{x}/{y}.webp",
    "download": {
@@ -8156,7 +7967,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_ghmc_circles_b.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_ghmc_circles_b.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ghmc_circle_3/{z}/{x}/{y}.webp",
    "download": {
@@ -8196,7 +8007,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_ghmc_circles_b.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_ghmc_circles_b.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ghmc_circle_4/{z}/{x}/{y}.webp",
    "download": {
@@ -8236,7 +8047,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_ghmc_circles_b.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_ghmc_circles_b.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ghmc_circle_5/{z}/{x}/{y}.webp",
    "download": {
@@ -8276,7 +8087,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_ghmc_circles_b.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_ghmc_circles_b.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ghmc_circle_6/{z}/{x}/{y}.webp",
    "download": {
@@ -8316,7 +8127,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_ghmc_circles_b.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_ghmc_circles_b.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_ghmc_circle_7/{z}/{x}/{y}.webp",
    "download": {
@@ -8355,7 +8166,7 @@
    "style": null,
    "encoding": null,
    "tile_size": 512,
-   "legend_image": "https://hulf-observatory.github.io/hyderabad-data/legends/plu_hmda.webp",
+   "legend_image": "https://data.hyderabad.urbanobservatory.in/legends/plu_hmda.webp",
    "display": true,
    "tile_url": "https://hyd-tiles.hulf-observatory.workers.dev/r/2026-10-07/plu_hmda/{z}/{x}/{y}.webp",
    "download": {
@@ -8490,10 +8301,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/aws_locations.f4f8e829.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/aws_locations.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/aws_locations.f4f8e829.pmtiles"
   },
   {
    "id": "anganwadi_telangana",
@@ -8567,10 +8375,7 @@
    },
    "encoding": null,
    "display": true,
-   "pmtiles_url": "https://hulf-observatory.github.io/hyderabad-data/vector/anganwadi_telangana.5d120394.pmtiles",
-   "download": {
-    "parquet": "https://hulf-observatory.github.io/hyderabad-data/vector/anganwadi_telangana.parquet"
-   }
+   "pmtiles_url": "https://data.hyderabad.urbanobservatory.in/vector/anganwadi_telangana.5d120394.pmtiles"
   }
  ]
 }
